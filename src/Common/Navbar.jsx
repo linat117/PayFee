@@ -1,15 +1,24 @@
+
+import Dropdown from "../Components/Dropdown";
+import DropdownYear from "../Components/DropdownYear";
+import DropdownExport from "../Components/DropdownExport";
+import DropdownPayment from "../Components/DropdownPayment";
+import DropdownReceipts from "../Components/DropdownReceipts";
+import DropdownReport from "../Components/DropdownReport";
 const Navbar = () => {
-    return ( 
+   return ( 
         <div className="w-screen h-12 bg bg-gray-800">
-<div className="text-lg text-white flex px-28 py-2 ">
+<div className="text-lg text-white flex px-32 py-2 ">
     
-    <p className="px-5">Students</p>
-    <p className="px-5">Receipts</p>
-    <p className="px-5">Payment</p>
-    <p className="px-5">Report</p>
-    <p className="px-5">Export</p>
-    <p className="p px-96">Year</p>
+    <p> <Dropdown/> </p>
+    <p ><DropdownReceipts/></p>
+    <p><DropdownPayment/></p>
+    <p><DropdownReport/></p>
+    <p><DropdownExport/></p>
+    <p><DropdownYear/></p>
 </div>
+
+
         </div>
      );
 }

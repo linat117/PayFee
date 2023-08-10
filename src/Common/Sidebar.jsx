@@ -4,11 +4,11 @@ import {IoReceiptOutline} from 'react-icons/io5'
 import {BsPersonCircle} from 'react-icons/bs'
 import {MdOutlinePayments} from 'react-icons/md'
 import {TbFileReport} from 'react-icons/tb'
-import { Link } from 'react-router-dom'
+import { Link} from 'react-router-dom'
 
 const Sidebar = () => {
     return ( 
-        <div className="w-28 h-screen bg bg-slate-800">
+        <div className="w-32 h-screen bg bg-slate-800">
  <IconContext.Provider value={{ className: 'react-icons' }}></IconContext.Provider>
 <p className='text-white text-5xl p px-8 '> <BsPersonCircle/> </p>
 <p className="text-white text-lg px-3 py-6">UserName</p>

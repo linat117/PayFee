@@ -3,6 +3,7 @@ import Navbar from "../../Common/Navbar";
 import Sidebar from "../../Common/Sidebar";
 
 const PaymentPage = () => {
+
     return (
         <div>
             <div>
@@ -17,22 +18,22 @@ const PaymentPage = () => {
                     <p className="text-5xl m mr-3"><IoPersonCircle/></p>
                   <div className="m mr-5">
                     <h3>FULL NAME</h3>
-                    <p className="font-bold">First Middle Name</p>
+                    <p className=" text-gray-800">Payer</p>
                   </div>
                   <div className="m mr-5">
                     
                   <h3>GRADE</h3>
-                    <p className="font-bold">1A</p>
+                    <p  className=" text-gray-800">Grade</p>
                   </div>
                   <div className="m mr-5">
                     
                     <h3>REMAINING</h3>
-                      <p className="font-bold">$0.00</p>
+                      <p className=" text-gray-800">Remaining</p>
                     </div>
                     <div className="m mr-5">
                     
                     <h3>TOTAL PAID</h3>
-                      <p className="font-bold">$0.00</p>
+                      <p className=" text-gray-800">Amount</p>
                     </div>
                     <div className="text-right">
                     <p className="font-bold m ml-96 mt-5">PAYMENT HISTORY</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
@@ -53,12 +54,24 @@ const PaymentPage = () => {
                     <th className="w w-24 text-left">Reason</th>
                     <th className=" w w-52 text-left">Reference</th>
                 </tr>
+                <tr className="w w-11/12 bg bg-gray-100 rounded-lg m mt-0 ml-9 h h-10">
+<td>0000</td>
+<td></td>
+<td></td>
+<td>A</td>
+<td>
+  </td>
+<td>07-07-2020</td>
+<td>0000000</td>
+<td> </td>
+<td>Monthly,workbook</td>
+<td>*******</td>
+
+                </tr>
             </table>
         
                   </div>
-                  <div className="  w w-11/12  bg bg-gray-100 rounded-lg m mt-0 ml-9 h h-60 ">
-
-</div>
+                  
 
                   
                     </div>
